@@ -1,0 +1,359 @@
+html, head, body, h1, h2, p{
+	margin: 0;
+}
+#parent{
+	text-align: center;
+}
+#container-one{
+	height: 75em;
+	width: 50em;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+}
+/********************************************************************/
+/*Header(Personal Info and Name box)*/
+.header{
+	display: flex;
+	justify-content: flex-start;
+	height: 20%;
+}
+/********************************************************************/
+/*Personal Info Box(Left)*/
+#header-first{
+	width: 33.33%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+.bullet{
+	height: 10px;
+	width: 10px;
+	background: #1a487d;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 17%;
+}
+.personal-info{
+	margin-top: 15px;
+	color: #1a487d;
+	font-family: monospace;
+	display: inline-block;
+}
+.span-items{
+	color: #363636;
+}
+i{
+	margin-left: 17%;
+	padding: 3px;
+	margin-top: 10px;
+	color: #1a487d;
+}
+/**********************************************************************/
+/*Name box(Right)*/
+#header-second{
+	width: 66.66%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+#header-second-name{
+	height: 50%;
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+}
+#my-img{
+	width: 30%;
+	text-align: center;
+}
+img{
+	width: 50%;
+	border-radius: 50%;
+	box-shadow: 6px 6px 10px grey;
+}
+.my-name{
+	width: 70%;
+	color: #1a487d;
+	font-family: monospace;
+}
+#header-second-desc{
+	height: 50%;
+	text-align: left;
+	padding: 5px;
+}
+/*********************************************************************/
+/*Body(All below Header)*/
+.body{
+	display: flex;
+	justify-content: flex-start;
+	height: 80%;
+}
+/********************************************************************/
+/*Left Body Part(3 divs )*/
+.body-left{
+	width: 33.33%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+#body-left-first{
+	height: 35%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+.skills{
+	padding: 5px;
+	margin-left: 40px;
+}
+.hundred-percent{
+	width: 50%;
+	height: 2%;
+	background: #cccccc;
+	border-radius: 50px;
+	margin-left: 40px;
+}
+.ninety-percent{
+	width: 90%;
+	height: 100%;
+	border-radius: 50px;
+	background: #1a487d;
+}
+.seventy-percent{
+	width: 70%;
+	height: 100%;
+	border-radius: 50px;
+	background: #1a487d;
+}
+.sixty-percent{
+	width: 60%;
+	height: 100%;
+	border-radius: 50px;
+	background: #1a487d;
+}
+.fifty-percent{
+	width: 50%;
+	height: 100%;
+	border-radius: 50px;
+	background: #1a487d;
+}
+.forty-percent{
+	width: 40%;
+	height: 100%;
+	border-radius: 50px;
+	background: #1a487d;
+}
+#body-left-second{
+	height: 35%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+.first-bullet{
+	margin-left: 17%;
+}
+.progress-bullet{
+	height: 10px;
+	width: 10px;
+	background: #1a487d;
+	border-radius: 50%;
+	display: inline-block;
+}
+.grey{
+	background: #cccccc;
+}
+#body-left-third{
+	height: 30%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+/********************************************************************/
+/*Right Body Part(4 divs)*/
+.body-right{
+	width: 66.66%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+#body-right-first{
+	height: 60%;
+	text-align: left;
+}
+#exp-container{
+	width: 100%;
+	height: 93%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	justify-content: flex-start;
+}
+#experience-left{
+	width: 20%;
+	height: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+.experience-left-boxes{
+	height: 33.33%;
+	width: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.timeline{
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	margin-left: 44%;
+	background: #1a487d;
+	display: inline-block;
+}
+.line{
+	border-width: 1px;
+	border-style: solid;
+	width: 0.1px;
+	height: 90px;
+	margin-left: 48%;
+	background: #1a487d;
+}
+.timeline-period{
+	text-align: center;
+	font-family: monospace;
+	color: #1a487d;
+}
+#experience-right{
+	width: 80%;
+	height: 100%;
+}
+.experience-right-boxes{
+	height: 33.33%;
+	width: 100%;
+	color: #1a487d;
+	font-family: monospace;
+	display: inline-block;
+}
+#body-right-second{
+	height: 13.33%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+#edu-container{
+	width: 100%;
+	height: 67%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	justify-content: flex-start;
+}
+#education-left{
+	width: 20%;
+	height: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+.education-left-boxes{
+	height: 100%;
+	width: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#education-right{
+	width: 80%;
+	height: 100%;
+}
+.education-right-boxes{
+	height: 100%;
+	width: 100%;
+	color: #1a487d;
+	font-family: monospace;
+	display: inline-block;
+}
+#body-right-third{
+	height: 13.33%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+#cert-container{
+	width: 100%;
+	height: 67%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	justify-content: flex-start;
+}
+#cert-left{
+	width: 20%;
+	height: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+.cert-left-boxes{
+	height: 100%;
+	width: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#cert-right{
+	width: 80%;
+	height: 100%;
+}
+.cert-right-boxes{
+	height: 100%;
+	width: 100%;
+	color: #1a487d;
+	font-family: monospace;
+	display: inline-block;
+}
+#body-right-fourth{
+	height: 13.33%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	text-align: left;
+}
+#interest-container{
+	width: 100%;
+	height: 67%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	justify-content: flex-start;
+}
+#interest-left{
+	width: 20%;
+	height: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+}
+.interest-left-boxes{
+	height: 100%;
+	width: 100%;
+	/*border-width: 1px;
+	border-style: solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#interest-right{
+	width: 80%;
+	height: 100%;
+}
+.interest-right-boxes{
+	height: 100%;
+	width: 100%;
+	color: #1a487d;
+	font-family: monospace;
+	display: inline-block;
+}
+/**********************************************************************/
